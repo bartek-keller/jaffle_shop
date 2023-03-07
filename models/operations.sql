@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ ref('case') }}
+    select * from {{ ref('test') }}
 
 ),
 
