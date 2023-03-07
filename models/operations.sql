@@ -1,6 +1,6 @@
-with source as (
+with operations as (
 
-    select * from {{ ref('test') }}
+    select * from {{ ref('stg_operations') }}
 
 ),
 
@@ -8,9 +8,9 @@ renamed as (
 
     select
         column1 as test_column,
-        column2 as Id
+        column2 as id
 
-    from source
+    from operations
 
 )
 
