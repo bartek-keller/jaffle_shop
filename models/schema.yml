@@ -1,9 +1,8 @@
 version: 2
 
 models:
-  - name: STREAM_NAME_TEST
+  - name: operations
     description: Test table
-
     columns:
       - name: test_column
         tests:
